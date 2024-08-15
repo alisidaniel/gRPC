@@ -17,6 +17,8 @@ message User {
   string name = 2;
   string email = 3;
   string password = 4;
+  string age = 5;
+  string country = 6;
 }
 
 message GetUsersRequest {}

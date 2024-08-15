@@ -28,7 +28,9 @@ class Users(user_pb2_grpc.UsersServicer):
                     id='1',
                     name='John Doe',
                     email='test@gmail.com',
-                    password='password'
+                    password='password',
+                    age='28',
+                    country='Netherlands'
                 )
             ])
 
